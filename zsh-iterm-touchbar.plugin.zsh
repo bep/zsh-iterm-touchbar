@@ -157,8 +157,8 @@ function _displayDefault() {
 
     setKey 2 "🎋 `git_current_branch`" _displayBranches '-q'
     setKey 3 $touchbarIndicators "git status"
-    setKey 4 "🔼 push" "git push origin $(git_current_branch)"
-    setKey 5 "🔽 pull" "git pull origin $(git_current_branch)"
+    setKey 4 "🔼 push" "git push"
+    setKey 5 "🔽 pull" "git pull"
   else
     clearKey 2
     clearKey 3
